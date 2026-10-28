@@ -1,0 +1,10 @@
+.layout-app {
+    display: flex;
+    height: 100dvh;
+    width: 100vw;
+    overflow-y: hidden;
+}
+
+.layout-app main {
+    flex: 1;
+}
