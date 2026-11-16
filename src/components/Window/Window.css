@@ -1,0 +1,40 @@
+.window {
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    border: var(--border-grid) solid var(--color-2);
+    background-color: var(--color-0);
+    box-sizing: border-box;
+    z-index: 100;
+}
+
+.window-header {
+    display: flex;
+    align-items: center;
+    outline: var(--border-grid) solid var(--color-2);
+    padding: 16px 14px;
+    color: var(--color-4);
+    user-select: none;
+}
+
+.window-title {
+    font-size: 0.9rem;
+    font-weight: 600;
+}
+
+.window-header button {
+    background: transparent;
+    border: none;
+}
+
+.window-header button:hover {
+    color: var(--color-5);
+}
+
+.window-content {
+    flex: 1;
+    padding: 16px;
+    box-sizing: border-box;
+    overflow: auto;
+    color: var(--color-4);
+}
